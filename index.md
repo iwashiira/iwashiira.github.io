@@ -50,7 +50,7 @@ title: IWASHIIRA HOMEPAGE
 # SNS
 
 - Twitter
-  - [@iwashiira](https://twitter.com/iwashiira)
+  - [@iwashiira](https://twitter.com/iwashiira){:target="_blank"}
 
 - Blog
-  - [イワシイラのブログ](https://iwashi-ra.hatenablog.com/)
+  - [イワシイラのブログ](https://iwashi-ra.hatenablog.com/){:target="_blank"}
