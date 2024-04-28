@@ -46,3 +46,11 @@ title: IWASHIIRA HOMEPAGE
 - Solo
     - NRI Secure netwars 2022 **22nd**
     - NRI Secure netwars 2023 **8th**
+
+# SNS
+
+- Twitter
+  - [@iwashiira](https://twitter.com/iwashiira)
+
+- Blog
+  - [イワシイラのブログ](https://iwashi-ra.hatenablog.com/)
