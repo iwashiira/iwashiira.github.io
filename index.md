@@ -35,13 +35,18 @@ title: IWASHIIRA HOMEPAGE
 
 - Team
   - TSG
+    - SECCON Beginners CTF 2022 **1st**
     - CakeCTF 2022 **2nd**
     - SECCON CTF Quals 2022 **9th**
     - SECCON CTF 2022 International Finals **9th**
     - Ricerca CTF 2023 **10th**, 学生 **1st**
+    - SECCON Beginners CTF 2023 **4th**
     - zer0pts CTF 2023 **14th**
     - SECCON CTF Quals 2023 **27th**, Domestic **3rd**
     - SECCON CTF Domestic Finals **8th**
+    - SECCON Beginners CTF 2024 **1st**
+  - Bunkyo Westerns (Guest Player)
+    - CDDC 2024 Qualifier **6th**
 
 - Solo
     - NRI Secure netwars 2022 **22nd**
