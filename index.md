@@ -6,6 +6,7 @@ title: IWASHIIRA HOMEPAGE
 
 - CTF
   - Pwnable
+  - Reversing
 - Fuzzing
 - Network
   - Intranet
@@ -14,7 +15,7 @@ title: IWASHIIRA HOMEPAGE
 
 - CTF
   - Foreniscs
-  - Reversing
+  - Web
 - Malware Analysis
 - Cloud
   - GCP
@@ -45,6 +46,8 @@ title: IWASHIIRA HOMEPAGE
     - SECCON CTF Quals 2023 **27th**, Domestic **3rd**
     - SECCON CTF Domestic Finals **8th**
     - SECCON Beginners CTF 2024 **1st**
+  - kijitora
+    - Google CTF 2024 **2nd**
   - Bunkyo Westerns (Guest Player)
     - CDDC 2024 Qualifier **6th**
 
