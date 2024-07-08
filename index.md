@@ -14,7 +14,7 @@ title: IWASHIIRA HOMEPAGE
 # 興味分野
 
 - CTF
-  - Foreniscs
+  - Forensics
   - Web
 - Malware Analysis
 - Cloud
@@ -46,10 +46,13 @@ title: IWASHIIRA HOMEPAGE
     - SECCON CTF Quals 2023 **27th**, Domestic **3rd**
     - SECCON CTF Domestic Finals **8th**
     - SECCON Beginners CTF 2024 **1st**
+  - undef1ned
+    - DEF CON CTF Qualifier 2024 **11th**
   - kijitora
     - Google CTF 2024 **2nd**
   - Bunkyo Westerns (Guest Player)
     - CDDC 2024 Qualifier **6th**
+    - CDDC 2024 Finals **13th**, University **9th**
 
 - Solo
     - NRI Secure netwars 2022 **22nd**
