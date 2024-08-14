@@ -8,6 +8,7 @@ title: IWASHIIRA HOMEPAGE
   - Pwnable
   - Reversing
 - Fuzzing
+- Malware Analysis
 - Network
   - Intranet
 
@@ -16,7 +17,6 @@ title: IWASHIIRA HOMEPAGE
 - CTF
   - Forensics
   - Web
-- Malware Analysis
 - Cloud
   - GCP
   - OCI
@@ -50,9 +50,11 @@ title: IWASHIIRA HOMEPAGE
     - DEF CON CTF Qualifier 2024 **11th**
   - kijitora
     - Google CTF 2024 **2nd**
-  - Bunkyo Westerns (Guest Player)
+  - Bunkyo Westerns
     - CDDC 2024 Qualifier **6th**
     - CDDC 2024 Finals **13th**, University **9th**
+  - Blue Water (Guest Player)
+    - DEF CON CTF Finals 2024 **2nd**
 
 - Solo
     - NRI Secure netwars 2022 **22nd**
