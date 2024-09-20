@@ -59,6 +59,7 @@ title: IWASHIIRA HOMEPAGE
 - Solo
     - NRI Secure netwars 2022 **22nd**
     - NRI Secure netwars 2023 **8th**
+    - FFRI Security x NFLabs. Cybersecurity Challenge'24 **3rd**
 
 # SNS
 
