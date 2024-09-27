@@ -53,6 +53,7 @@ title: IWASHIIRA HOMEPAGE
   - Bunkyo Westerns
     - CDDC 2024 Qualifier **6th**
     - CDDC 2024 Finals **13th**, University **9th**
+    - IERAE CTF 2024 **1st**
   - Blue Water (Guest Player)
     - DEF CON CTF Finals 2024 **2nd**
 
