@@ -2,6 +2,16 @@
 title: IWASHIIRA HOMEPAGE
 ---
 
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JFPTPL2QDM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JFPTPL2QDM');
+</script>
+
 # 最も興味のある分野
 
 - CTF
