@@ -17,20 +17,22 @@ title: IWASHIIRA HOMEPAGE
 - CTF
   - Pwnable
   - Reversing
+  - Forensics
 - Fuzzing
 - Malware Analysis
-- Network
-  - Intranet
+- 蕎麦
+- 八ツ橋
 
 # 興味分野
 
 - CTF
-  - Forensics
   - Web
 - Cloud
   - GCP
   - OCI
   - DO
+- Network
+  - Intranet
 - 自作PC
 - 自宅サーバー
 
@@ -44,6 +46,11 @@ title: IWASHIIRA HOMEPAGE
 
 # CTF歴
 
+- Organizer
+  - TSG
+    - TSG CTF 2023 (Author)
+    - TSG CTF 2024 (Author, Infra, Leader)
+
 - Team
   - TSG
     - SECCON Beginners CTF 2022 **1st**
@@ -56,6 +63,7 @@ title: IWASHIIRA HOMEPAGE
     - SECCON CTF Quals 2023 **27th**, Domestic **3rd**
     - SECCON CTF Domestic Finals **8th**
     - SECCON Beginners CTF 2024 **1st**
+    - SECCON CTF Quals 2024 **32nd**, Domestic **7th**
   - undef1ned
     - DEF CON CTF Qualifier 2024 **11th**
   - kijitora
