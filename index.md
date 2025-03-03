@@ -61,9 +61,10 @@ title: IWASHIIRA HOMEPAGE
     - SECCON Beginners CTF 2023 **4th**
     - zer0pts CTF 2023 **14th**
     - SECCON CTF Quals 2023 **27th**, Domestic **3rd**
-    - SECCON CTF Domestic Finals **8th**
+    - SECCON CTF 2023 Domestic Finals **8th**
     - SECCON Beginners CTF 2024 **1st**
     - SECCON CTF Quals 2024 **32nd**, Domestic **7th**
+    - SECCON CTF 2024 Domestic Finals **3rd**
   - undef1ned
     - DEF CON CTF Qualifier 2024 **11th**
   - kijitora
