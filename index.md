@@ -53,8 +53,8 @@ title: IWASHIIRA HOMEPAGE
 
 - Team
   - TSG
-    - SECCON Beginners CTF 2022 **1st**
-    - CakeCTF 2022 **2nd**
+    - SECCON Beginners CTF 2022 **1st** 🥇
+    - CakeCTF 2022 **2nd** 🥈
     - SECCON CTF Quals 2022 **9th**
     - SECCON CTF 2022 International Finals **9th**
     - Ricerca CTF 2023 **10th**, 学生 **1st**
@@ -62,24 +62,24 @@ title: IWASHIIRA HOMEPAGE
     - zer0pts CTF 2023 **14th**
     - SECCON CTF Quals 2023 **27th**, Domestic **3rd**
     - SECCON CTF 2023 Domestic Finals **8th**
-    - SECCON Beginners CTF 2024 **1st**
+    - SECCON Beginners CTF 2024 **1st** 🥇
     - SECCON CTF Quals 2024 **32nd**, Domestic **7th**
-    - SECCON CTF 2024 Domestic Finals **3rd**
+    - SECCON CTF 2024 Domestic Finals **3rd** 🥉
   - undef1ned
     - DEF CON CTF Qualifier 2024 **11th**
   - kijitora
-    - Google CTF 2024 **2nd**
+    - Google CTF 2024 **2nd** 🥈
   - Bunkyo Westerns
     - CDDC 2024 Qualifier **6th**
     - CDDC 2024 Finals **13th**, University **9th**
-    - IERAE CTF 2024 **1st**
+    - IERAE CTF 2024 **1st** 🥇
   - Blue Water (Guest Player)
-    - DEF CON CTF Finals 2024 **2nd**
+    - DEF CON CTF Finals 2024 **2nd** 🥈
 
 - Solo
     - NRI Secure netwars 2022 **22nd**
     - NRI Secure netwars 2023 **8th**
-    - FFRI Security x NFLabs. Cybersecurity Challenge'24 **3rd**
+    - FFRI Security x NFLabs. Cybersecurity Challenge'24 **3rd** 🥉
 
 # SNS
 
