@@ -75,6 +75,8 @@ title: IWASHIIRA HOMEPAGE
     - IERAE CTF 2024 **1st** 🥇
     - CODEGATE 2025 CTF **18th**
     - Dice CTF 2025 Quals **19th**
+    - CDDC 2025 Qualifier **14th**, University **8th**
+    - CDDC 2025 Finals **13th**, University **6th**
   - Blue Water (Guest Player)
     - DEF CON CTF Finals 2024 **2nd** 🥈
 
