@@ -65,10 +65,12 @@ title: IWASHIIRA HOMEPAGE
     - SECCON Beginners CTF 2024 **1st** 🥇
     - SECCON CTF Quals 2024 **32nd**, Domestic **7th**
     - SECCON CTF 2024 Domestic Finals **3rd** 🥉
+    - IERAE CTF 2025 **14th**
   - undef1ned
     - DEF CON CTF Qualifier 2024 **11th**
   - kijitora
     - Google CTF 2024 **2nd** 🥈
+    - Google CTF 2025 **9th**
   - Bunkyo Westerns
     - CDDC 2024 Qualifier **6th**
     - CDDC 2024 Finals **13th**, University **9th**
