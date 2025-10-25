@@ -15,7 +15,6 @@
       {% assign pages_list = site.html_pages | sort: "path" %}
       {% for p in pages_list %}
       <a href="{{ p.url | relative_url }}">{{ p.title | default: p.name | remove: '.md' }}</a> |
-      {% endif %}
       {% endfor %}
     </nav>
 
