@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <nav>
+    <!-- まず Home リンクを手動で追加 -->
+    <a href="{{ '/' | relative_url }}">Home</a> |
+
+    <!-- 他の md ページを自動列挙 -->
+    {% assign pages_list = site.pages | sort: "path" %}
+    {% for p in pages_list %}
+    {% if p.name != "index.md" and p.name != "404.html" and p.url != "/" %}
+    <a href="{{ p.url | relative_url }}">{{ p.title | default: p.name | remove: '.md' }}</a> |
+    {% endif %}
+    {% endfor %}
+  </nav>
+
+  <hr>
+
+  <main>
+    {{ content }}
+  </main>
+</body>
+
+</html>
