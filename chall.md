@@ -3,6 +3,8 @@ title: CTFの作問歴
 layout: default
 ---
 
+{% assign star = "—,★☆☆☆☆,★★☆☆☆,★★★☆☆,★★★★☆,★★★★★" | split: "," %}
+
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JFPTPL2QDM"></script>
 <script>
@@ -15,11 +17,15 @@ layout: default
 
 # 作問したCTF
 
+- DifficultyはLiveで出したものはTSG CTF換算のものに変えています。
+- Difficultyは事後評価のものに変更しています。
+
 ## TSG Live CTF
 
 ### [TSG LIVE! 7 CTF](https://github.com/tsg-ut/tsg-live-ctf-7)
 
-- Powered Evil Online (Reversing)
+|Challenge|Genre|Difficulty|Concept|Quality|Unintended|
+|Powered Evil Online|Reversing|beginner easy|{{star[2]}}|{{star[2]}}|{{star[4]}}|
 
 ### [TSG LIVE! 8 CTF](https://github.com/tsg-ut/tsg-live-ctf-8)
 
