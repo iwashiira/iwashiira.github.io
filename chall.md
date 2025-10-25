@@ -19,6 +19,18 @@ document.addEventListener('DOMContentLoaded', () => {
   if (!tables.length) return;
 
   tables.forEach(table => {
+
+    table.style.borderCollapse = 'collapse';
+    table.style.width = '100%';
+
+    const cells = table.querySelectorAll('th, td');
+    cells.forEach(cell => {
+      cell.style.borderTop = '1px solid #d0d7de';
+      cell.style.borderBottom = '1px solid #d0d7de';
+      cell.style.padding = '6px 10px';
+      cell.style.textAlign = cell.tagName === 'TH' ? 'left' : '';
+    });
+
     const headers = Array.from(table.querySelectorAll('tr:first-child th, thead th'));
     const targetCols = headers
       .map((th, i) => /^(concept|quality|unintended)$/i.test(th.textContent.trim()) ? i : -1)
@@ -56,14 +68,14 @@ document.addEventListener('DOMContentLoaded', () => {
 ### [TSG CTF 2023](https://github.com/tsg-ut/tsgctf2023)
 
 |Challenge|Genre|Difficulty|Concept|Quality|Unintended|
-|--------:|-----|:--------:|:-----:|:-----:|:--------:|
+|:--------|-----|:--------:|:-----:|:-----:|:--------:|
 |beginners_rev_2023|Reversing|beginner med|2|4|5|
 |mimetic_cycle|Reversing|med-hard|5|2|5|
 
 ### [TSG CTF 2024](https://github.com/tsg-ut/tsgctf2024)
 
 |Challenge|Genre|Difficulty|Concept|Quality|Unintended|
-|--------:|-----|:--------:|:-----:|:-----:|:--------:|
+|:--------|-----|:--------:|:-----:|:-----:|:--------:|
 |piercing_misty_mountain|Pwnable|med|4|3|1|
 |FL_Support_Center|Pwnable|med-hard|5|4|2|
 |TSGDBinary|Reversing|med|3|3|4|
@@ -74,21 +86,21 @@ document.addEventListener('DOMContentLoaded', () => {
 ### [TSG LIVE! 7 CTF](https://github.com/tsg-ut/tsg-live-ctf-7)
 
 |Challenge|Genre|Difficulty|Concept|Quality|Unintended|
-|--------:|-----|:--------:|:-----:|:-----:|:--------:|
+|:--------|-----|:--------:|:-----:|:-----:|:--------:|
 |Powered Evil Online|Reversing|beginner easy|2|2|4|
 
 ### [TSG LIVE! 8 CTF](https://github.com/tsg-ut/tsg-live-ctf-8)
 
 |Challenge|Genre|Difficulty|Concept|Quality|Unintended|
-|--------:|-----|:--------:|:-----:|:-----:|:--------:|
+|:--------|-----|:--------:|:-----:|:-----:|:--------:|
 |DNS ROPOB|Reversing|easy-med|5|4|1|
 
 ### [TSG LIVE! 10 CTF](https://github.com/tsg-ut/tsg-live-ctf-10)
 
 |Challenge|Genre|Difficulty|Concept|Quality|Unintended|
-|--------:|-----|:--------:|:-----:|:-----:|:--------:|
+|:--------|-----|:--------:|:-----:|:-----:|:--------:|
+|agent|Pwnable|beginner|0|0|0|
 
-- agent (Pwnable)
 - renewal (Pwnable)
 - true_version (Pwnable)
 - string_related (Reversing)
@@ -96,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
 ### [TSG LIVE! 11 CTF](https://github.com/tsg-ut/tsg-live-ctf-11)
 
 |Challenge|Genre|Difficulty|Concept|Quality|Unintended|
-|--------:|-----|:--------:|:-----:|:-----:|:--------:|
+|:--------|-----|:--------:|:-----:|:-----:|:--------:|
 
 - mini_cyberchef (Pwnable)
 - mini_cyberchef_production (Pwnable)
@@ -105,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
 ### [TSG LIVE! 14 CTF](https://github.com/tsg-ut/tsg-live-ctf-14)
 
 |Challenge|Genre|Difficulty|Concept|Quality|Unintended|
-|--------:|-----|:--------:|:-----:|:-----:|:--------:|
+|:--------|-----|:--------:|:-----:|:-----:|:--------:|
 
 - traditional_fork_chall (Pwnable)
 - traditional_fork_chall_v2 (Pwnable)
