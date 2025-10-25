@@ -56,6 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
             td.textContent = '★'.repeat(clamped) + '☆'.repeat(5 - clamped);
             td.style.whiteSpace = 'nowrap';
           }
+        }
       });
     });
   });
