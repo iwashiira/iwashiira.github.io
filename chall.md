@@ -67,6 +67,8 @@ document.addEventListener('DOMContentLoaded', () => {
 - DifficultyはLiveで出したものはTSG CTF換算のものに変えています。
 - Difficultyは事後評価のものに変更しています。
 - Difficultyは非想定解の難易度を考慮しないものとしました。
+- Conceptの▽は下の問題とのシリーズものを表し、下のコンセプトの問題から
+逆算して作られた難易度の問題を意味します。
 
 ## TSG CTF
 
