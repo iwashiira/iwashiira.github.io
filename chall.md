@@ -17,28 +17,28 @@ layout: default
 
 ## TSG Live CTF
 
-### TSG LIVE! 7 CTF
+### [TSG LIVE! 7 CTF](https://github.com/tsg-ut/tsg-live-ctf-7)
 
 - Powered Evil Online (Reversing)
 
-### TSG LIVE! 8 CTF
+### [TSG LIVE! 8 CTF](https://github.com/tsg-ut/tsg-live-ctf-8)
 
 - DNS ROPOB (Reversing)
 
-### TSG LIVE! 10 CTF
+### [TSG LIVE! 10 CTF](https://github.com/tsg-ut/tsg-live-ctf-10)
 
 - agent (Pwnable)
 - renewal (Pwnable)
 - true_version (Pwnable)
 - string_related (Reversing)
 
-### TSG LIVE! 11 CTF
+### [TSG LIVE! 11 CTF](https://github.com/tsg-ut/tsg-live-ctf-11)
 
 - mini_cyberchef (Pwnable)
 - mini_cyberchef_production (Pwnable)
 - power_obfus_royalty (Reversing)
 
-### TSG LIVE! 14 CTF
+### [TSG LIVE! 14 CTF](https://github.com/tsg-ut/tsg-live-ctf-14)
 
 - traditional_fork_chall (Pwnable)
 - traditional_fork_chall_v2 (Pwnable)
@@ -51,12 +51,12 @@ layout: default
 
 ## TSG CTF
 
-### TSG CTF 2023
+### [TSG CTF 2023](https://github.com/tsg-ut/tsgctf2023)
 
 - beginners_rev_2023 (Reversing)
 - mimetic_cycle (Reversing)
 
-### TSG CTF 2024
+### [TSG CTF 2024](https://github.com/tsg-ut/tsgctf2024)
 
 - piercing_misty_mountain (Pwnable)
 - FL_Support_Center (Pwnable)
