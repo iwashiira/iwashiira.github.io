@@ -8,21 +8,23 @@
 </head>
 
 <body>
-  <nav>
-    <a href="{{ '/' | relative_url }}">Home</a> |
+  <div class="site">
+    <nav class="tabs">
+      <a href="{{ '/' | relative_url }}">Home</a> |
 
-    {% assign pages_list = site.html_pages | sort: "path" %}
-    {% for p in pages_list %}
-    <a href="{{ p.url | relative_url }}">{{ p.title | default: p.name | remove: '.md' }}</a> |
-    {% endif %}
-    {% endfor %}
-  </nav>
+      {% assign pages_list = site.html_pages | sort: "path" %}
+      {% for p in pages_list %}
+      <a href="{{ p.url | relative_url }}">{{ p.title | default: p.name | remove: '.md' }}</a> |
+      {% endif %}
+      {% endfor %}
+    </nav>
 
-  <hr>
+    <hr>
 
-  <main>
-    {{ content }}
-  </main>
+    <main>
+      {{ content }}
+    </main>
+  </div>
 </body>
 
 </html>
