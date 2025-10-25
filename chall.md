@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
   tables.forEach(table => {
     const headers = Array.from(table.querySelectorAll('tr:first-child th, thead th'));
     const targetCols = headers
-      .map((th, i) => /^(difficulty|concept|quality)$/i.test(th.textContent.trim()) ? i : -1)
+      .map((th, i) => /^(concept|quality|unintended)$/i.test(th.textContent.trim()) ? i : -1)
       .filter(i => i >= 0);
 
     const rows = Array.from(table.querySelectorAll('tbody tr')).length
@@ -58,16 +58,16 @@ document.addEventListener('DOMContentLoaded', () => {
 |Challenge|Genre|Difficulty|Concept|Quality|Unintended|
 |--------:|-----|:--------:|:-----:|:-----:|:--------:|
 |beginners_rev_2023|Reversing|beginner med|2|4|5|
-- mimetic_cycle (Reversing)
+|mimetic_cycle|Reversing|med-hard|5|2|5|
 
 ### [TSG CTF 2024](https://github.com/tsg-ut/tsgctf2024)
 
 |Challenge|Genre|Difficulty|Concept|Quality|Unintended|
 |--------:|-----|:--------:|:-----:|:-----:|:--------:|
-- piercing_misty_mountain (Pwnable)
-- FL_Support_Center (Pwnable)
-- TSGDBinary (Reversing)
-- prime shellcode (Misc)
+|piercing_misty_mountain|Pwnable|med|4|3|1|
+|FL_Support_Center|Pwnable|med-hard|5|4|2|
+|TSGDBinary|Reversing|med|3|3|4|
+|prime shellcode|Misc|med|3|3|4|
 
 ## TSG Live CTF
 
@@ -87,6 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 |Challenge|Genre|Difficulty|Concept|Quality|Unintended|
 |--------:|-----|:--------:|:-----:|:-----:|:--------:|
+
 - agent (Pwnable)
 - renewal (Pwnable)
 - true_version (Pwnable)
@@ -96,6 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 |Challenge|Genre|Difficulty|Concept|Quality|Unintended|
 |--------:|-----|:--------:|:-----:|:-----:|:--------:|
+
 - mini_cyberchef (Pwnable)
 - mini_cyberchef_production (Pwnable)
 - power_obfus_royalty (Reversing)
@@ -104,6 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 |Challenge|Genre|Difficulty|Concept|Quality|Unintended|
 |--------:|-----|:--------:|:-----:|:-----:|:--------:|
+
 - traditional_fork_chall (Pwnable)
 - traditional_fork_chall_v2 (Pwnable)
 - traditional_fork_chall_v3 (Pwnable)
