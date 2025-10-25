@@ -19,17 +19,21 @@ layout: default
 
 - DifficultyはLiveで出したものはTSG CTF換算のものに変えています。
 - Difficultyは事後評価のものに変更しています。
+- Difficultyは非想定解の難易度を考慮しないものとしました。
 
 ## TSG Live CTF
 
 ### [TSG LIVE! 7 CTF](https://github.com/tsg-ut/tsg-live-ctf-7)
 
 |Challenge|Genre|Difficulty|Concept|Quality|Unintended|
+|--------:|-----|:--------:|:-----:|:-----:|:--------:|
 |Powered Evil Online|Reversing|beginner easy|{{star[2]}}|{{star[2]}}|{{star[4]}}|
 
 ### [TSG LIVE! 8 CTF](https://github.com/tsg-ut/tsg-live-ctf-8)
 
-- DNS ROPOB (Reversing)
+|Challenge|Genre|Difficulty|Concept|Quality|Unintended|
+|--------:|-----|:--------:|:-----:|:-----:|:--------:|
+|DNS ROPOB|Reversing|easy-med|{{star[5]}}|{{star[4]}}|{{star[1]}}|
 
 ### [TSG LIVE! 10 CTF](https://github.com/tsg-ut/tsg-live-ctf-10)
 
