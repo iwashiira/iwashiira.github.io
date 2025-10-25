@@ -11,9 +11,9 @@
   <nav>
     <a href="{{ '/' | relative_url }}">Home</a> |
 
-    {% assign pages_list = site.pages | sort: "path" %}
+    {% assign pages_list = site.html_pages | sort: "path" %}
     {% for p in pages_list %}
-    {% if p.extname == ".md" and p.name != "index.md" and p.url != "/" %}
+    {% if p.name != "index.md" and p.url != "/" %}
     <a href="{{ p.url | relative_url }}">{{ p.title | default: p.name | remove: '.md' }}</a> |
     {% endif %}
     {% endfor %}
