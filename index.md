@@ -1,5 +1,6 @@
 ---
 title: IWASHIIRA HOMEPAGE
+layout: default
 ---
 
 <!-- Google Analytics -->
