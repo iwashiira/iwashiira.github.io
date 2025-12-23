@@ -84,10 +84,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
 |Challenge|Genre|Difficulty|Concept|Quality|Intended|
 |:--------|-----|:--------:|:-----:|:-----:|:--------:|
-|piercing_misty_mountain|Pwnable|med|4|3|1|
+|piercing_misty_mountain|Pwnable|med-hard|4|3|1|
 |FL_Support_Center|Pwnable|med-hard|5|4|2|
 |TSGDBinary|Reversing|med|3|3|4|
 |prime shellcode|Misc|med|3|3|4|
+
+### TSG CTF 2025
+
+|Challenge|Genre|Difficulty|Concept|Quality|Intended|
+|:--------|-----|:--------:|:-----:|:-----:|:--------:|
+|pryspace|Pwnable|med-hard|5|5|3|
+|XMLTreeDump|Pwnable|hard|5|5|4|
+|TSG-Book|Web|easy|3|2|1|
+|shadow_spider_network|Reversing|easy-med|5|3|2|
+|ro_shellbox|Misc|med|4|5|5|
 
 ## TSG Live CTF
 
