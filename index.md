@@ -17,10 +17,9 @@ layout: default
 
 - CTF
   - Pwnable
-  - Reversing
+    - heap Exploitation
   - Forensics
 - Fuzzing
-- Malware Analysis
 - 蕎麦
 - 八ツ橋
 
@@ -28,6 +27,8 @@ layout: default
 
 - CTF
   - Web
+  - Reversing
+- Malware Analysis
 - Cloud
   - GCP
   - OCI
@@ -44,6 +45,7 @@ layout: default
 - Seccamp 2021 C受講生
 - Seccamp 2022 Cチューター
 - Seccamp 2023 Cチューター
+- BunkyoWesterns
 
 # CTF歴
 
@@ -51,6 +53,7 @@ layout: default
   - TSG
     - TSG CTF 2023 (Author)
     - TSG CTF 2024 (Author, Infra, Leader)
+    - TSG CTF 2025 (Author, Infra, Leader)
 
 - Team
   - TSG
@@ -67,6 +70,7 @@ layout: default
     - SECCON CTF Quals 2024 **32nd**, Domestic **7th**
     - SECCON CTF 2024 Domestic Finals **3rd** 🥉
     - IERAE CTF 2025 **14th**
+    - SECCON CTF 14 Quals **35th**, Domestic **7th**
   - undef1ned
     - DEF CON CTF Qualifier 2024 **11th**
   - kijitora

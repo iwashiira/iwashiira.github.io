@@ -75,70 +75,70 @@ document.addEventListener('DOMContentLoaded', () => {
 
 ### [TSG CTF 2023](https://github.com/tsg-ut/tsgctf2023)
 
-|Challenge|Genre|Difficulty|Concept|Quality|Intended|
-|:--------|-----|:--------:|:-----:|:-----:|:--------:|
-|beginners_rev_2023|Reversing|beginner med|2|4|5|
-|mimetic_cycle|Reversing|med-hard|5|2|5|
+|Challenge|Genre|Difficulty|Concept|Quality|Intended|内容|
+|:--------|-----|:--------:|:-----:|:-----:|:--------:|:--------|
+|beginners_rev_2023|Reversing|beginner med|2|4|5|exeファイル, RC4, safe-linking|
+|mimetic_cycle|Reversing|med-hard|5|2|5|powershellのaliasを用いた難読化, コンセプトに自信あり|
 
 ### [TSG CTF 2024](https://github.com/tsg-ut/tsgctf2024)
 
-|Challenge|Genre|Difficulty|Concept|Quality|Intended|
-|:--------|-----|:--------:|:-----:|:-----:|:--------:|
-|piercing_misty_mountain|Pwnable|med-hard|4|3|1|
-|FL_Support_Center|Pwnable|med-hard|5|4|2|
-|TSGDBinary|Reversing|med|3|3|4|
-|prime shellcode|Misc|med|3|3|4|
+|Challenge|Genre|Difficulty|Concept|Quality|Intended|内容|
+|:--------|-----|:--------:|:-----:|:-----:|:--------:|:--------|
+|piercing_misty_mountain|Pwnable|med-hard|4|3|1|`ret n`ガジェットの問題, 非想定によってのみ解かれて泣く|
+|FL_Support_Center|Pwnable|med-hard|5|4|2|C++のheap問, 作問ミスにより簡単になってしまったのが悔やまれるが、面白い問題|
+|TSGDBinary|Reversing|med|3|3|4|gdbを難読化に用いてもおかしくないという発想から|
+|prime shellcode|Misc|med|3|3|4|素数でシェルコードを縛るという単純なコンセプト|
 
 ### TSG CTF 2025
 
-|Challenge|Genre|Difficulty|Concept|Quality|Intended|
-|:--------|-----|:--------:|:-----:|:-----:|:--------:|
-|pryspace|Pwnable|med-hard|5|5|3|
-|XMLTreeDump|Pwnable|hard|5|5|4|
-|TSG-Book|Web|easy|3|2|1|
-|shadow_spider_network|Reversing|easy-med|5|3|2|
-|ro_shellbox|Misc|med|4|5|5|
+|Challenge|Genre|Difficulty|Concept|Quality|Intended|内容|
+|:--------|-----|:--------:|:-----:|:-----:|:--------:|:--------|
+|pryspace|Pwnable|med-hard|5|5|3|N*Mのノートででかいunsorted binを作れるかパズル, 発想の新規性はある|
+|XMLTreeDump|Pwnable|hard|5|5|4|C++のUAF heap問, 想定解も面白い|
+|TSG-Book|Web|easy|3|2|1|ThymeleafのSSTI, 作問ミスにより悔いしか残らない出来に|
+|shadow_spider_network|Reversing|easy-med|5|3|2|SEGV handlerの問題, もっと凝るよちはあったが、簡単のまま出してしまった|
+|ro_shellbox|Misc|med|4|5|5|read onlyな領域ばかりのshellcode jail|
 
 ## TSG Live CTF
 
 ### [TSG LIVE! 7 CTF](https://github.com/tsg-ut/tsg-live-ctf-7)
 
-|Challenge|Genre|Difficulty|Concept|Quality|Intended|
-|:--------|-----|:--------:|:-----:|:-----:|:--------:|
-|Powered Evil Online|Reversing|beginner easy|2|2|4|
+|Challenge|Genre|Difficulty|Concept|Quality|Intended|内容|
+|:--------|-----|:--------:|:-----:|:-----:|:--------:|:--------|
+|Powered Evil Online|Reversing|beginner easy|2|2|4|初めてのCTFの作問, 半分黒歴史|
 
 ### [TSG LIVE! 8 CTF](https://github.com/tsg-ut/tsg-live-ctf-8)
 
-|Challenge|Genre|Difficulty|Concept|Quality|Intended|
-|:--------|-----|:--------:|:-----:|:-----:|:--------:|
-|DNS ROPOB|Reversing|easy-med|5|4|1|
+|Challenge|Genre|Difficulty|Concept|Quality|Intended|内容|
+|:--------|-----|:--------:|:-----:|:-----:|:--------:|:--------|
+|DNS ROPOB|Reversing|easy-med|5|4|1|独自アイデアを含むROPOBの問題, アンチ動的解析を入れず一瞬で解かれる, コンセプトは好き|
 
 ### [TSG LIVE! 10 CTF](https://github.com/tsg-ut/tsg-live-ctf-10)
 
-|Challenge|Genre|Difficulty|Concept|Quality|Intended|
-|:--------|-----|:--------:|:-----:|:-----:|:--------:|
-|agent|Pwnable|beginner|0|4|5|
-|renewal|Pwnable|easy|0|4|5|
-|true_version|Pwnable|easy-med|4|5|5|
-|string_related|Reversing|beginner|2|3|5|
+|Challenge|Genre|Difficulty|Concept|Quality|Intended|内容|
+|:--------|-----|:--------:|:-----:|:-----:|:--------:|:--------|
+|agent|Pwnable|beginner|0|4|5||
+|renewal|Pwnable|easy|0|4|5||
+|true_version|Pwnable|easy-med|4|5|5|canaryをスキップする面白問題|
+|string_related|Reversing|beginner|2|3|5|powershellのテクの勉強|
 
 ### [TSG LIVE! 11 CTF](https://github.com/tsg-ut/tsg-live-ctf-11)
 
-|Challenge|Genre|Difficulty|Concept|Quality|Intended|
-|:--------|-----|:--------:|:-----:|:-----:|:--------:|
-|mini_cyberchef|Pwnable|beginner|0|4|5|
-|mini_cyberchef_production|Pwnable|med|5|5|5|
-|power_obfus_royalty|Reversing|beginner|2|3|5|
+|Challenge|Genre|Difficulty|Concept|Quality|Intended|内容|
+|:--------|-----|:--------:|:-----:|:-----:|:--------:|:--------|
+|mini_cyberchef|Pwnable|beginner|0|4|5||
+|mini_cyberchef_production|Pwnable|med|5|5|5|FSBの自然な利用の面白問題|
+|power_obfus_royalty|Reversing|beginner|2|3|5|powershellのテクの勉強2|
 
 ### [TSG LIVE! 14 CTF](https://github.com/tsg-ut/tsg-live-ctf-14)
 
-|Challenge|Genre|Difficulty|Concept|Quality|Intended|
-|:--------|-----|:--------:|:-----:|:-----:|:--------:|
-|traditional_fork_chall|Pwnable|beginner easy|0|4|5|
-|traditional_fork_chall_v2|Pwnable|easy|0|4|5|
-|traditional_fork_chall_v3|Pwnable|med|3|5|5|
-|perling_perler|Web|beginner|1|3|5|
-|shornm|Web|beginner easy|2|3|2|
-|iwi_deco_demo|Web|easy|3|3|3|
-|string_related_js|Reversing|beginner|2|3|5|
-|process_hopping|Reversing|beginner easy|4|4|5|
+|Challenge|Genre|Difficulty|Concept|Quality|Intended|内容|
+|:--------|-----|:--------:|:-----:|:-----:|:--------:|:--------|
+|traditional_fork_chall|Pwnable|beginner easy|0|4|5||
+|traditional_fork_chall_v2|Pwnable|easy|0|4|5||
+|traditional_fork_chall_v3|Pwnable|med|3|5|5|forkの問題にガチャガチャ要素を足した。よくまとまっていると思う|
+|perling_perler|Web|beginner|1|3|5|perlのコマンドインジェクション|
+|shornm|Web|beginner easy|2|3|2|redirectに着目してみた問題, 非想定がいっぱい|
+|iwi_deco_demo|Web|easy|3|3|3|ThymeleafのSSTIのブログからほぼそのまま|
+|string_related_js|Reversing|beginner|2|3|5|javascriptの難読化の勉強|
+|process_hopping|Reversing|beginner easy|4|4|5|forkを入れ子にしてみた|
