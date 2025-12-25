@@ -20,8 +20,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
   tables.forEach(table => {
 
+    if (!table.parentElement.classList?.contains('table-wrap')) {
+      const wrap = document.createElement('div');
+      wrap.className = 'table-wrap';
+      table.parentNode.insertBefore(wrap, table);
+      wrap.appendChild(table);
+    }
+
     table.style.borderCollapse = 'collapse';
     table.style.width = '100%';
+    table.style.tableLayout = 'fixed';
 
     const cells = table.querySelectorAll('th, td');
     cells.forEach(cell => {
@@ -36,11 +44,27 @@ document.addEventListener('DOMContentLoaded', () => {
       .map((th, i) => /^(concept|quality|intended)$/i.test(th.textContent.trim()) ? i : -1)
       .filter(i => i >= 0);
 
+    const contentIdx = headers.findIndex(th => th.textContent.trim() === '内容');
+
     const rows = Array.from(table.querySelectorAll('tbody tr')).length
       ? Array.from(table.querySelectorAll('tbody tr'))
       : Array.from(table.querySelectorAll('tr')).slice(1);
 
+    targetCols.forEach(i => {
+      const th = headers[i];
+      if (th) th.style.width = '6ch';
+    });
+
     rows.forEach(tr => {
+      if (contentIdx >= 0) {
+        const cell = tr.cells[contentIdx];
+        if (cell) {
+          cell.style.whiteSpace = 'normal';
+          cell.style.overflowWrap = 'anywhere';
+          cell.style.wordBreak = 'break-word';
+        }
+      }
+
       targetCols.forEach(idx => {
         const td = tr.cells[idx];
         if (!td) return;
@@ -52,9 +76,11 @@ document.addEventListener('DOMContentLoaded', () => {
             td.style.color = '#555';
             td.style.textAlign = 'center';
             td.style.fontSize = '1.1em';
+            td.style.whiteSpace = 'nowrap';
           } else {
             td.textContent = '★'.repeat(clamped) + '☆'.repeat(5 - clamped);
             td.style.whiteSpace = 'nowrap';
+            td.style.textAlign = 'center';
           }
         }
       });
@@ -62,6 +88,12 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 </script>
+
+<style>
+.table-wrap { overflow-x: auto; }
+
+.table-wrap { -webkit-overflow-scrolling: touch; }
+</style>
 
 # 作問したCTF
 
