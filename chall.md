@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   tables.forEach(table => {
 
+    // wrap for horizontal scroll
     if (!table.parentElement.classList?.contains('table-wrap')) {
       const wrap = document.createElement('div');
       wrap.className = 'table-wrap';
@@ -28,8 +29,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     table.style.borderCollapse = 'collapse';
-    table.style.width = '100%';
-    table.style.tableLayout = 'fixed';
+    table.style.width = 'max-content';   // ✅ 表を内容幅で広げる
+    table.style.tableLayout = 'auto';    // ✅ fixed をやめる
 
     const cells = table.querySelectorAll('th, td');
     cells.forEach(cell => {
@@ -44,44 +45,36 @@ document.addEventListener('DOMContentLoaded', () => {
       .map((th, i) => /^(concept|quality|intended)$/i.test(th.textContent.trim()) ? i : -1)
       .filter(i => i >= 0);
 
-    const contentIdx = headers.findIndex(th => th.textContent.trim() === '内容');
-
     const rows = Array.from(table.querySelectorAll('tbody tr')).length
       ? Array.from(table.querySelectorAll('tbody tr'))
       : Array.from(table.querySelectorAll('tr')).slice(1);
 
+    // ★列は狭く
     targetCols.forEach(i => {
       const th = headers[i];
       if (th) th.style.width = '6ch';
     });
 
+    // ★に変換
     rows.forEach(tr => {
-      if (contentIdx >= 0) {
-        const cell = tr.cells[contentIdx];
-        if (cell) {
-          cell.style.whiteSpace = 'normal';
-          cell.style.overflowWrap = 'anywhere';
-          cell.style.wordBreak = 'break-word';
-        }
-      }
-
       targetCols.forEach(idx => {
         const td = tr.cells[idx];
         if (!td) return;
+
         const n = parseInt(td.textContent.trim(), 10);
-        if (Number.isFinite(n)) {
-          const clamped = Math.max(0, Math.min(5, n));
-          if (clamped === 0) {
-            td.textContent = '▽';
-            td.style.color = '#555';
-            td.style.textAlign = 'center';
-            td.style.fontSize = '1.1em';
-            td.style.whiteSpace = 'nowrap';
-          } else {
-            td.textContent = '★'.repeat(clamped) + '☆'.repeat(5 - clamped);
-            td.style.whiteSpace = 'nowrap';
-            td.style.textAlign = 'center';
-          }
+        if (!Number.isFinite(n)) return;
+
+        const clamped = Math.max(0, Math.min(5, n));
+        if (clamped === 0) {
+          td.textContent = '▽';
+          td.style.color = '#555';
+          td.style.textAlign = 'center';
+          td.style.fontSize = '1.1em';
+          td.style.whiteSpace = 'nowrap';
+        } else {
+          td.textContent = '★'.repeat(clamped) + '☆'.repeat(5 - clamped);
+          td.style.whiteSpace = 'nowrap';
+          td.style.textAlign = 'center';
         }
       });
     });
@@ -90,9 +83,22 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 
 <style>
-.table-wrap { overflow-x: auto; }
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
 
-.table-wrap { -webkit-overflow-scrolling: touch; }
+/* ✅ 被り禁止 + 横スクロール前提で折り返さない */
+.table-wrap table th,
+.table-wrap table td {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* ✅ 表は内容幅で広がり、wrapの中でスクロール */
+.table-wrap table {
+  width: max-content;
+}
 </style>
 
 # 作問したCTF
